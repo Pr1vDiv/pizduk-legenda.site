@@ -4,13 +4,14 @@
 h1 {
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    color: #800080;
+    color: rgb(0, 191, 255);
+    margin-top: 20px;
 }
 
 h2 {
     text-align: center;
     font-family: 'Nunito', sans-serif;
-    color: #800080;
+    color: rgb(0, 191, 255);
 }
 
 p {
@@ -25,7 +26,7 @@ p {
 .footer {
     background-color: #333;
     color: white;
-    padding: 20px 0;    
+    padding: 20px 0;
 }
 
 .info {
@@ -62,5 +63,3 @@ p {
     transition: color 0.8s ease;
     background-color: 0.8s ease;
 }
-
-
