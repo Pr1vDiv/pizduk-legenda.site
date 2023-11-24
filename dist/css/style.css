@@ -139,52 +139,88 @@ p {
 }
 
 @media (max-width: 768px) {
-    body{
+
+    body {
         padding-top: 50px;
     }
 
-    header{
+    header {
         padding: 5px;
     }
 
-    .headerh1{
+    .headerh1 {
         font-size: 20px;
         margin-left: 10px;
     }
 }
 
 @media (max-width: 595px) {
-    body{
-        padding: 0;
+
+    * {
+        margin: 0;
     }
 
-    header{
-        position: static;
-        padding: 5px;
+    body {
+        padding-top: 55px;
     }
 
-    .headerh1{
-        font-size: 18px;
-        margin-left: 5px;
+    header {
+        text-align: left;
     }
 
-    nav a{
-        padding: 5px;
+    .headerh1 {
+        text-align: center;
+        margin-left: 0;
     }
 
-    .link-description{
+    nav {
+        align-items: center;
+        margin-right: 0;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: left;
+        padding: 17px 5px;
+    }
+
+    nav a .link-description {
+        display: none;
+    }
+
+    .link-description {
         font-size: 10px;
     }
 
-    .chapter1, h2{
+    .content{
+        padding-right: 3px;
+        padding-left: 3px;
+    }
+
+    .chapter1,
+    h2 {
         font-size: 24px;
     }
 
-    p{
+    p {
         font-size: 13px;
     }
 
-    .telega, .github{
+    .footer {
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .info {
+        margin-top: 10px;
+    }
+
+    .Pr1vDiv{
+        margin-bottom: 10px;
+    }
+
+    .telega,
+    .github {
         font-size: 12px;
         margin-top: 3px;
         margin-bottom: 5px;
@@ -195,17 +231,12 @@ p {
         box-sizing: border-box;
         width: 50%;
     }
-    
-    .footer{
-        text-align: center;
-        padding: 20px 10px;
-    }
 
-    .info{
-        margin-top: 10px;
-    }
+}
 
-    .Pr1vDiv{
-        margin-bottom: 10px;
+@media (min-width: 596px) {
+
+    nav a .link-description {
+        display: block;
     }
 }
