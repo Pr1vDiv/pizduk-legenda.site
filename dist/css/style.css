@@ -139,46 +139,73 @@ p {
 }
 
 @media (max-width: 768px) {
-    body {
+    body{
         padding-top: 50px;
     }
-    header {
+
+    header{
         padding: 5px;
     }
-    .headerh1 {
+
+    .headerh1{
         font-size: 20px;
         margin-left: 10px;
     }
 }
 
-
 @media (max-width: 595px) {
-    body {
+    body{
         padding: 0;
     }
-    header {
+
+    header{
         position: static;
         padding: 5px;
     }
-    .headerh1 {
+
+    .headerh1{
         font-size: 18px;
         margin-left: 5px;
     }
-    nav a {
+
+    nav a{
         padding: 5px;
     }
-    .link-description {
+
+    .link-description{
         font-size: 10px;
     }
-    .chapter1, h2, p {
+
+    .chapter1, h2{
         font-size: 24px;
     }
-    .telega, .github {
+
+    p{
+        font-size: 13px;
+    }
+
+    .telega, .github{
         font-size: 12px;
         margin-top: 3px;
         margin-bottom: 5px;
-        margin-left: 5px;
-        margin-right: 5px;
-        padding: 5px 10px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px 15px;
+        display: block;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    
+    .footer{
+        text-align: center;
+        padding: 20px 10px;
+    }
+
+    .info{
+        margin-top: 10px;
+    }
+
+    .Pr1vDiv{
+        margin-bottom: 10px;
     }
 }
